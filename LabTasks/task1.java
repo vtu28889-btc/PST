@@ -4,7 +4,7 @@ import java.util.List;
 public class Salary {
     public static void main(String[] args) {
 
-        List<Integer> salaries = Arrays.asList(25000, 35000, 42000, 28000, 50000);
+        List<Integer> salaries = Arrays.asList(1000, 2000, 3000, 4000, 5000);
 
         salaries.stream()
                 .map(salary -> (int)(salary * 1.10))
